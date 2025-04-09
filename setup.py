@@ -2,14 +2,14 @@ from setuptools import setup, find_packages
 
 setup(
     name="pyillustrator",  # Replace with your module name
-    version="0.9.2",
+    version="0.9.3",
     author="Isaac",
     author_email="isaac.robledo.martin@gmail.com",
     description="A Python module for generating various plots using Matplotlib",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ipatazas/pyillustrator",  # Replace with your GitHub repo
-    packages=find_packages(),  # Automatically finds all packages in the module
+    packages=find_packages(include=["pyillustrator", "pyillustrator.*"]),
     package_dir={"": "."},
     install_requires=[
         "matplotlib>=3.0.0",
