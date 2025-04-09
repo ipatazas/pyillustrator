@@ -1,6 +1,7 @@
 # config.py
 PHI = 1.61803398875
 GOLDEN = 1/PHI
+CM_TO_INCHES = 1/2.54
 
 DEFAULT_CONFIG = {
     "style": "default",          # Matplotlib style
