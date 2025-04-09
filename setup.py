@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="pyillustrator",  # Replace with your module name
-    version="0.9.0",
+    version="0.9.1",
     author="Isaac",
     author_email="isaac.robledo.martin@gmail.com",
     description="A Python module for generating various plots using Matplotlib",
