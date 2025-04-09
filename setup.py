@@ -9,7 +9,7 @@ setup(
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     url="https://github.com/ipatazas/pyillustrator",  # Replace with your GitHub repo
-    packages=find_packages(include=["source"]),
+    packages=find_packages(),
     package_dir={"": "."},
     install_requires=[
         "matplotlib>=3.0.0",
