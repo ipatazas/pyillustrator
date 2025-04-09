@@ -34,6 +34,7 @@ pip install pyillustrator
 
 ```
 pyillustrator/
+├── __init__.py 
 ├── source/
 │   ├── __init__.py         # Module exports
 │   ├── plots.py            # Core plotting functions
