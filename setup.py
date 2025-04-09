@@ -1,15 +1,16 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="PyPlotter",  # Replace with your module name
+    name="pyplotter",  # Replace with your module name
     version="0.9.0",
     author="Isaac",
     author_email="isaac.robledo.martin@gmail.com",
     description="A Python module for generating various plots using Matplotlib",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/plotting_module",  # Replace with your GitHub repo
+    url="https://github.com/ipatazas/PyPlotter",  # Replace with your GitHub repo
     packages=find_packages(),  # Automatically finds all packages in the module
+    package_dir={"": "."},
     install_requires=[
         "matplotlib>=3.0.0",
         "numpy>=1.26.0",
