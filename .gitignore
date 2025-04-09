@@ -1,0 +1,15 @@
+# Ignore virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Ignore the build
+build/
+dist/
+
+# Ignore all files in the results folder
+results/
+
+# Ignore testing files
+test*
