@@ -8,7 +8,7 @@ setup(
     description="A Python module for generating various plots using Matplotlib",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/ipatazas/PyPlotter",  # Replace with your GitHub repo
+    url="https://github.com/ipatazas/pyillustrator",  # Replace with your GitHub repo
     packages=find_packages(),  # Automatically finds all packages in the module
     package_dir={"": "."},
     install_requires=[

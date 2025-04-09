@@ -17,7 +17,7 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/iatazas/PyPlotter"
+"Homepage" = "https://github.com/ipatazas/pyillustrator"
 
 [build-system]
 requires = ["setuptools>=61.0"]
