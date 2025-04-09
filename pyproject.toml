@@ -1,5 +1,5 @@
 [project]
-name = "pyplotter"
+name = "pyillustrator"
 version = "0.9.0"
 description = "A Python module for generating various plots using Matplotlib"
 readme = "README.md"

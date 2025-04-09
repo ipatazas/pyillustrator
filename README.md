@@ -1,6 +1,6 @@
-# PyPlotter
+# pyillustrator
 
-**PyPlotter** is a modular Python package designed for creating beautiful and configurable matplotlib subplot grids — perfect for creating aligned and aesthetic scientific figures, especially for publications.
+**pyillustrator** is a modular Python package designed for creating beautiful and configurable matplotlib subplot grids — perfect for creating aligned and aesthetic scientific figures, especially for publications.
 
 ---
 
@@ -18,14 +18,14 @@
 
 To install it from the repository you can install it
 ```
-git clone https://github.com/yourusername/PyPlotter.git
-cd PyPlotter
+git clone https://github.com/yourusername/pyillustrator.git
+cd pyillustrator
 pip install .
 ```
 
 PyPi installation is also available:
 ```
-pip install pyplotter
+pip install pyillustrator
 ```
 
 ---
@@ -33,7 +33,7 @@ pip install pyplotter
 ## Project Structure
 
 ```
-PyPlotter/
+pyillustrator/
 ├── source/
 │   ├── __init__.py         # Module exports
 │   ├── plots.py            # Core plotting functions
@@ -46,7 +46,7 @@ PyPlotter/
 Basic grid plot
 
 ```
-from PyPlotter import grid_plot
+from pyillustrator import grid_plot
 
 fig, axs = grid_plot(2, 2)
 axs[0,0].plot([0,1], [0,1])
@@ -55,7 +55,7 @@ axs[0,0].plot([0,1], [0,1])
 Double grid (e.g., for comparison)
 
 ```
-from PyPlotter import grid_plot_double
+from pyillustrator import grid_plot_double
 
 fig, axs = grid_plot_double(1, 2, pair='Horizontal')
 axs[0,0,0].plot(...)  # Left half
@@ -65,7 +65,7 @@ axs[0,0,1].plot(...)  # Right half
 Custom configuration
 
 ```
-from PyPlotter import DEFAULT_CONFIG, grid_plot
+from pyillustrator import DEFAULT_CONFIG, grid_plot
 
 config = DEFAULT_CONFIG.copy()
 config["figwidth"] = 20
