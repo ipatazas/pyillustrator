@@ -48,25 +48,30 @@ Basic grid plot
 
 ```
 from pyillustrator import grid_plot
+import matplotlib.pyplot as plt
 
 fig, axs = grid_plot(2, 2)
 axs[0,0].plot([0,1], [0,1])
+plt.show()
 ```
 
 Double grid (e.g., for comparison)
 
 ```
 from pyillustrator import grid_plot_double
+import matplotlib.pyplot as plt
 
 fig, axs = grid_plot_double(1, 2, pair='Horizontal')
 axs[0,0,0].plot(...)  # Left half
 axs[0,0,1].plot(...)  # Right half
+plt.show()
 ```
 
 Custom configuration
 
 ```
 from pyillustrator import DEFAULT_CONFIG, grid_plot
+import matplotlib.pyplot as plt
 
 config = DEFAULT_CONFIG.copy()
 config["figwidth"] = 20
@@ -74,6 +79,7 @@ config["aspect"] = "Equal"
 config["style"] = "seaborn"
 
 fig, axs = grid_plot(2, 2, config)
+plt.show()
 ```
 
 ---
